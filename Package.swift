@@ -1,11 +1,12 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.8
 
 import PackageDescription
 
 let package = Package(
     name: "DateToolsSwift",
     platforms: [
-        .macOS(.v10_10), .iOS(.v8), .tvOS(.v9), .watchOS(.v2)
+        .iOS(.v16),
+        .macOS(.v13)
     ],
     products: [
         .library(
